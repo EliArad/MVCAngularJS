@@ -40,8 +40,7 @@ namespace MVCAngular
 
                      ));
 
-
-
+            BundleTable.EnableOptimizations = false;
         }
     }
 }
