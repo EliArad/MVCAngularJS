@@ -212,6 +212,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Client\Config\app.js" />
+    <Content Include="Client\Config\routing.js" />
+    <Content Include="Client\Views\index.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -335,6 +338,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Client\Controllers\" />
+    <Folder Include="Client\Directives\" />
+    <Folder Include="Client\Services\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

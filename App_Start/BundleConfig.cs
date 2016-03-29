@@ -25,13 +25,20 @@ namespace MVCAngular
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
 
-            bundles.Add(new ScriptBundle("~/bundles/mini_spa/script").Include(
+            bundles.Add(new ScriptBundle("~/bundles/mini-spa/script").Include(
                      "~/Scripts/angular.js",
                      "~/Scripts/angular-ui-router.js",
                      "~/Scripts/angular-animate.js",
                      "~/Scripts/angular-resource.js",
                      "~/Scripts/angular-sanitize.js",
                      "~/Scripts/angular-cookies.js"));
+
+
+            bundles.Add(new ScriptBundle("~/bundles/mini-app/script").Include(
+                     "~/Client/Config/app.js",
+                     "~/Client/Config/routing.js"
+
+                     ));
 
 
 
