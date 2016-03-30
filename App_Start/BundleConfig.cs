@@ -40,6 +40,11 @@ namespace MVCAngular
 
                      ));
 
+            bundles.Add(new ScriptBundle("~/bundles/directives/script").Include(
+                                 "~/Client/Directives/helloworld.js"                                 
+
+                                 ));
+
             BundleTable.EnableOptimizations = false;
         }
     }
